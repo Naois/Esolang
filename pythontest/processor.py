@@ -317,13 +317,22 @@ class processor:
         self.instructions.append(instruction(expr,replacement))
         return string[:cp] + string[end+1:]
 
+import argparse
+
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(prog="FAR", description="Interpreted for the FAR programming language")
+    parser.add_argument("input", help="Program to be run")
+    parser.add_argument("output", help="File for output to be written to. May be the same as input.")
+    args = parser.parse_args()
+    infilename = args.input
+    outfilename = args.output
+
     proc = processor()
-    infile = open("beers.txt", "r")
+    infile = open(infilename, "r")
     instring = infile.read()
     infile.close()
     string = proc.run(instring)
     print(string)
-    file = open("output.txt", "w")
+    file = open(outfilename, "w")
     file.write(string)
     file.close()
