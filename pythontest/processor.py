@@ -77,6 +77,8 @@ class partial:
                     if char == '*':
                         self.mode = STATE_WAITING
                 else:
+                    if char == '~':
+                        currentpointer += 1
                     self.mode = STATE_CONTINUING
             else:
                 self.pointer = currentpointer
@@ -184,7 +186,7 @@ class partial:
                 represult += replacement[pointer]
                 pointer += 1
         if global_printreplacements:
-            print("Replaced string {} with {} according to command [{}->{}]".format(string[firstpoint:cp], represult, expr, replacement))
+            print("Replaced string '{}' with '{}' according to command [{}->{}]".format(string[firstpoint:cp].replace("\n", "\\n"), represult.replace("\n", "\\n"), expr.replace("\n", "\\n"), replacement.replace("\n", "\\n")))
         return (firstpoint, string[0:firstpoint] + represult + string[cp:], -1 if newcursor == -1 else firstpoint + newcursor)
 
 class instruction:
@@ -194,6 +196,9 @@ class instruction:
         instruction.checkduplicates(expr, replacement)
         self.partiallist = list()#Keeps track of all the possible starting points
         self.deadlist = list()   #Remembers the failed starting points for rollback
+
+    def duplicate(self):
+        return instruction(self.expr, self.replacement)
 
     #Accepts a character, returns None or a complete partial
     def processchar(self, char, cp):
@@ -287,6 +292,9 @@ class processor:
                 if char == '[':
                     string = self.addinstruction(string, cp)
                     continue
+                if char == '{':
+                    string = self.push(string, cp)
+                    continue
                 for instruction in self.instructions:
                     result = instruction.processchar(char, cp)
                     if result != None:
@@ -316,6 +324,16 @@ class processor:
             print("New Command added: [{}]".format(commandstring))
         self.instructions.append(instruction(expr,replacement))
         return string[:cp] + string[end+1:]
+    
+    def push(self, string, cp):
+        end = string.index('}', cp)
+        substring = string[cp+1,end]
+        instlist = list()
+        for inst in self.instructions:
+            instlist.append(inst.duplicate())
+        subprocessor = processor(instlist)
+        repstring = subprocessor.run(substring)
+        return string[:cp] + repstring + string[end+1:]
 
 import argparse
 
@@ -323,16 +341,20 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog="FAR", description="Interpreted for the FAR programming language")
     parser.add_argument("input", help="Program to be run")
     parser.add_argument("output", help="File for output to be written to. May be the same as input.")
+    parser.add_argument("-printoutput", action="store_true", help="Prints output on completion.")
+    parser.add_argument("-printreplacement", action="store_true", help="Prints upon every replacement that occurs")
     args = parser.parse_args()
     infilename = args.input
     outfilename = args.output
+    global_printreplacements = args.printreplacement
 
     proc = processor()
     infile = open(infilename, "r")
     instring = infile.read()
     infile.close()
     string = proc.run(instring)
-    print(string)
+    if args.printoutput:
+        print(string)
     file = open(outfilename, "w")
     file.write(string)
     file.close()
