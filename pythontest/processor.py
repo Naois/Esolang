@@ -327,7 +327,7 @@ class processor:
     
     def push(self, string, cp):
         end = string.index('}', cp)
-        substring = string[cp+1,end]
+        substring = string[cp+1:end]
         instlist = list()
         for inst in self.instructions:
             instlist.append(inst.duplicate())
