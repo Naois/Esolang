@@ -312,7 +312,6 @@ class processor:
             end = string.index(']', end+1)
         commandstring = string[cp+1:end]
         expr, replacement = commandstring.split('->')
-        replacement = replacement.replace("~","")
         if global_printcommands:
             print("New Command added: [{}]".format(commandstring))
         self.instructions.append(instruction(expr,replacement))

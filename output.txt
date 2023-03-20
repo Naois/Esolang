@@ -1,196 +1,293 @@
-rev(99) bottles of beer on the wall, rev(99) bottles of beer.\nTake one down and pass it around, rev(dec(99)) bottles of beer on the wall.
+99 bottles of beer on the wall, 99 bottles of beer.
+Take one down and pass it around, 98 bottles of *+|beer on the wall.
 
-rev(89) bottles of beer on the wall, rev(89) bottles of beer.\nTake one down and pass it around, rev(dec(89)) bottles of beer on the wall.
+98 bottles of beer on the wall, 98 bottles of beer.
+Take one down and pass it around, 97 bottles of *+|beer on the wall.
 
-rev(79) bottles of beer on the wall, rev(79) bottles of beer.\nTake one down and pass it around, rev(dec(79)) bottles of beer on the wall.
+97 bottles of beer on the wall, 97 bottles of beer.
+Take one down and pass it around, 96 bottles of *+|beer on the wall.
 
-rev(69) bottles of beer on the wall, rev(69) bottles of beer.\nTake one down and pass it around, rev(dec(69)) bottles of beer on the wall.
+96 bottles of beer on the wall, 96 bottles of beer.
+Take one down and pass it around, 95 bottles of *+|beer on the wall.
 
-rev(59) bottles of beer on the wall, rev(59) bottles of beer.\nTake one down and pass it around, rev(dec(59)) bottles of beer on the wall.
+95 bottles of beer on the wall, 95 bottles of beer.
+Take one down and pass it around, 94 bottles of *+|beer on the wall.
 
-rev(49) bottles of beer on the wall, rev(49) bottles of beer.\nTake one down and pass it around, rev(dec(49)) bottles of beer on the wall.
+94 bottles of beer on the wall, 94 bottles of beer.
+Take one down and pass it around, 93 bottles of *+|beer on the wall.
 
-rev(39) bottles of beer on the wall, rev(39) bottles of beer.\nTake one down and pass it around, rev(dec(39)) bottles of beer on the wall.
+93 bottles of beer on the wall, 93 bottles of beer.
+Take one down and pass it around, 92 bottles of *+|beer on the wall.
 
-rev(29) bottles of beer on the wall, rev(29) bottles of beer.\nTake one down and pass it around, rev(dec(29)) bottles of beer on the wall.
+92 bottles of beer on the wall, 92 bottles of beer.
+Take one down and pass it around, 91 bottles of *+|beer on the wall.
 
-rev(19) bottles of beer on the wall, rev(19) bottles of beer.\nTake one down and pass it around, rev(dec(19)) bottles of beer on the wall.
+91 bottles of beer on the wall, 91 bottles of beer.
+Take one down and pass it around, 90 bottles of *+|beer on the wall.
 
-rev(09) bottles of beer on the wall, rev(09) bottles of beer.\nTake one down and pass it around, rev(dec(09)) bottles of beer on the wall.
+90 bottles of beer on the wall, 90 bottles of beer.
+Take one down and pass it around, 89 bottles of *+|beer on the wall.
 
-rev(98) bottles of beer on the wall, rev(98) bottles of beer.\nTake one down and pass it around, rev(dec(98)) bottles of beer on the wall.
+89 bottles of beer on the wall, 89 bottles of beer.
+Take one down and pass it around, 88 bottles of *+|beer on the wall.
 
-rev(88) bottles of beer on the wall, rev(88) bottles of beer.\nTake one down and pass it around, rev(dec(88)) bottles of beer on the wall.
+88 bottles of beer on the wall, 88 bottles of beer.
+Take one down and pass it around, 87 bottles of *+|beer on the wall.
 
-rev(78) bottles of beer on the wall, rev(78) bottles of beer.\nTake one down and pass it around, rev(dec(78)) bottles of beer on the wall.
+87 bottles of beer on the wall, 87 bottles of beer.
+Take one down and pass it around, 86 bottles of *+|beer on the wall.
 
-rev(68) bottles of beer on the wall, rev(68) bottles of beer.\nTake one down and pass it around, rev(dec(68)) bottles of beer on the wall.
+86 bottles of beer on the wall, 86 bottles of beer.
+Take one down and pass it around, 85 bottles of *+|beer on the wall.
 
-rev(58) bottles of beer on the wall, rev(58) bottles of beer.\nTake one down and pass it around, rev(dec(58)) bottles of beer on the wall.
+85 bottles of beer on the wall, 85 bottles of beer.
+Take one down and pass it around, 84 bottles of *+|beer on the wall.
 
-rev(48) bottles of beer on the wall, rev(48) bottles of beer.\nTake one down and pass it around, rev(dec(48)) bottles of beer on the wall.
+84 bottles of beer on the wall, 84 bottles of beer.
+Take one down and pass it around, 83 bottles of *+|beer on the wall.
 
-rev(38) bottles of beer on the wall, rev(38) bottles of beer.\nTake one down and pass it around, rev(dec(38)) bottles of beer on the wall.
+83 bottles of beer on the wall, 83 bottles of beer.
+Take one down and pass it around, 82 bottles of *+|beer on the wall.
 
-rev(28) bottles of beer on the wall, rev(28) bottles of beer.\nTake one down and pass it around, rev(dec(28)) bottles of beer on the wall.
+82 bottles of beer on the wall, 82 bottles of beer.
+Take one down and pass it around, 81 bottles of *+|beer on the wall.
 
-rev(18) bottles of beer on the wall, rev(18) bottles of beer.\nTake one down and pass it around, rev(dec(18)) bottles of beer on the wall.
+81 bottles of beer on the wall, 81 bottles of beer.
+Take one down and pass it around, 80 bottles of *+|beer on the wall.
 
-rev(08) bottles of beer on the wall, rev(08) bottles of beer.\nTake one down and pass it around, rev(dec(08)) bottles of beer on the wall.
+80 bottles of beer on the wall, 80 bottles of beer.
+Take one down and pass it around, 79 bottles of *+|beer on the wall.
 
-rev(97) bottles of beer on the wall, rev(97) bottles of beer.\nTake one down and pass it around, rev(dec(97)) bottles of beer on the wall.
+79 bottles of beer on the wall, 79 bottles of beer.
+Take one down and pass it around, 78 bottles of *+|beer on the wall.
 
-rev(87) bottles of beer on the wall, rev(87) bottles of beer.\nTake one down and pass it around, rev(dec(87)) bottles of beer on the wall.
+78 bottles of beer on the wall, 78 bottles of beer.
+Take one down and pass it around, 77 bottles of *+|beer on the wall.
 
-rev(77) bottles of beer on the wall, rev(77) bottles of beer.\nTake one down and pass it around, rev(dec(77)) bottles of beer on the wall.
+77 bottles of beer on the wall, 77 bottles of beer.
+Take one down and pass it around, 76 bottles of *+|beer on the wall.
 
-rev(67) bottles of beer on the wall, rev(67) bottles of beer.\nTake one down and pass it around, rev(dec(67)) bottles of beer on the wall.
+76 bottles of beer on the wall, 76 bottles of beer.
+Take one down and pass it around, 75 bottles of *+|beer on the wall.
 
-rev(57) bottles of beer on the wall, rev(57) bottles of beer.\nTake one down and pass it around, rev(dec(57)) bottles of beer on the wall.
+75 bottles of beer on the wall, 75 bottles of beer.
+Take one down and pass it around, 74 bottles of *+|beer on the wall.
 
-rev(47) bottles of beer on the wall, rev(47) bottles of beer.\nTake one down and pass it around, rev(dec(47)) bottles of beer on the wall.
+74 bottles of beer on the wall, 74 bottles of beer.
+Take one down and pass it around, 73 bottles of *+|beer on the wall.
 
-rev(37) bottles of beer on the wall, rev(37) bottles of beer.\nTake one down and pass it around, rev(dec(37)) bottles of beer on the wall.
+73 bottles of beer on the wall, 73 bottles of beer.
+Take one down and pass it around, 72 bottles of *+|beer on the wall.
 
-rev(27) bottles of beer on the wall, rev(27) bottles of beer.\nTake one down and pass it around, rev(dec(27)) bottles of beer on the wall.
+72 bottles of beer on the wall, 72 bottles of beer.
+Take one down and pass it around, 71 bottles of *+|beer on the wall.
 
-rev(17) bottles of beer on the wall, rev(17) bottles of beer.\nTake one down and pass it around, rev(dec(17)) bottles of beer on the wall.
+71 bottles of beer on the wall, 71 bottles of beer.
+Take one down and pass it around, 70 bottles of *+|beer on the wall.
 
-rev(07) bottles of beer on the wall, rev(07) bottles of beer.\nTake one down and pass it around, rev(dec(07)) bottles of beer on the wall.
+70 bottles of beer on the wall, 70 bottles of beer.
+Take one down and pass it around, 69 bottles of *+|beer on the wall.
 
-rev(96) bottles of beer on the wall, rev(96) bottles of beer.\nTake one down and pass it around, rev(dec(96)) bottles of beer on the wall.
+69 bottles of beer on the wall, 69 bottles of beer.
+Take one down and pass it around, 68 bottles of *+|beer on the wall.
 
-rev(86) bottles of beer on the wall, rev(86) bottles of beer.\nTake one down and pass it around, rev(dec(86)) bottles of beer on the wall.
+68 bottles of beer on the wall, 68 bottles of beer.
+Take one down and pass it around, 67 bottles of *+|beer on the wall.
 
-rev(76) bottles of beer on the wall, rev(76) bottles of beer.\nTake one down and pass it around, rev(dec(76)) bottles of beer on the wall.
+67 bottles of beer on the wall, 67 bottles of beer.
+Take one down and pass it around, 66 bottles of *+|beer on the wall.
 
-rev(66) bottles of beer on the wall, rev(66) bottles of beer.\nTake one down and pass it around, rev(dec(66)) bottles of beer on the wall.
+66 bottles of beer on the wall, 66 bottles of beer.
+Take one down and pass it around, 65 bottles of *+|beer on the wall.
 
-rev(56) bottles of beer on the wall, rev(56) bottles of beer.\nTake one down and pass it around, rev(dec(56)) bottles of beer on the wall.
+65 bottles of beer on the wall, 65 bottles of beer.
+Take one down and pass it around, 64 bottles of *+|beer on the wall.
 
-rev(46) bottles of beer on the wall, rev(46) bottles of beer.\nTake one down and pass it around, rev(dec(46)) bottles of beer on the wall.
+64 bottles of beer on the wall, 64 bottles of beer.
+Take one down and pass it around, 63 bottles of *+|beer on the wall.
 
-rev(36) bottles of beer on the wall, rev(36) bottles of beer.\nTake one down and pass it around, rev(dec(36)) bottles of beer on the wall.
+63 bottles of beer on the wall, 63 bottles of beer.
+Take one down and pass it around, 62 bottles of *+|beer on the wall.
 
-rev(26) bottles of beer on the wall, rev(26) bottles of beer.\nTake one down and pass it around, rev(dec(26)) bottles of beer on the wall.
+62 bottles of beer on the wall, 62 bottles of beer.
+Take one down and pass it around, 61 bottles of *+|beer on the wall.
 
-rev(16) bottles of beer on the wall, rev(16) bottles of beer.\nTake one down and pass it around, rev(dec(16)) bottles of beer on the wall.
+61 bottles of beer on the wall, 61 bottles of beer.
+Take one down and pass it around, 60 bottles of *+|beer on the wall.
 
-rev(06) bottles of beer on the wall, rev(06) bottles of beer.\nTake one down and pass it around, rev(dec(06)) bottles of beer on the wall.
+60 bottles of beer on the wall, 60 bottles of beer.
+Take one down and pass it around, 59 bottles of *+|beer on the wall.
 
-rev(95) bottles of beer on the wall, rev(95) bottles of beer.\nTake one down and pass it around, rev(dec(95)) bottles of beer on the wall.
+59 bottles of beer on the wall, 59 bottles of beer.
+Take one down and pass it around, 58 bottles of *+|beer on the wall.
 
-rev(85) bottles of beer on the wall, rev(85) bottles of beer.\nTake one down and pass it around, rev(dec(85)) bottles of beer on the wall.
+58 bottles of beer on the wall, 58 bottles of beer.
+Take one down and pass it around, 57 bottles of *+|beer on the wall.
 
-rev(75) bottles of beer on the wall, rev(75) bottles of beer.\nTake one down and pass it around, rev(dec(75)) bottles of beer on the wall.
+57 bottles of beer on the wall, 57 bottles of beer.
+Take one down and pass it around, 56 bottles of *+|beer on the wall.
 
-rev(65) bottles of beer on the wall, rev(65) bottles of beer.\nTake one down and pass it around, rev(dec(65)) bottles of beer on the wall.
+56 bottles of beer on the wall, 56 bottles of beer.
+Take one down and pass it around, 55 bottles of *+|beer on the wall.
 
-rev(55) bottles of beer on the wall, rev(55) bottles of beer.\nTake one down and pass it around, rev(dec(55)) bottles of beer on the wall.
+55 bottles of beer on the wall, 55 bottles of beer.
+Take one down and pass it around, 54 bottles of *+|beer on the wall.
 
-rev(45) bottles of beer on the wall, rev(45) bottles of beer.\nTake one down and pass it around, rev(dec(45)) bottles of beer on the wall.
+54 bottles of beer on the wall, 54 bottles of beer.
+Take one down and pass it around, 53 bottles of *+|beer on the wall.
 
-rev(35) bottles of beer on the wall, rev(35) bottles of beer.\nTake one down and pass it around, rev(dec(35)) bottles of beer on the wall.
+53 bottles of beer on the wall, 53 bottles of beer.
+Take one down and pass it around, 52 bottles of *+|beer on the wall.
 
-rev(25) bottles of beer on the wall, rev(25) bottles of beer.\nTake one down and pass it around, rev(dec(25)) bottles of beer on the wall.
+52 bottles of beer on the wall, 52 bottles of beer.
+Take one down and pass it around, 51 bottles of *+|beer on the wall.
 
-rev(15) bottles of beer on the wall, rev(15) bottles of beer.\nTake one down and pass it around, rev(dec(15)) bottles of beer on the wall.
+51 bottles of beer on the wall, 51 bottles of beer.
+Take one down and pass it around, 50 bottles of *+|beer on the wall.
 
-rev(05) bottles of beer on the wall, rev(05) bottles of beer.\nTake one down and pass it around, rev(dec(05)) bottles of beer on the wall.
+50 bottles of beer on the wall, 50 bottles of beer.
+Take one down and pass it around, 49 bottles of *+|beer on the wall.
 
-rev(94) bottles of beer on the wall, rev(94) bottles of beer.\nTake one down and pass it around, rev(dec(94)) bottles of beer on the wall.
+49 bottles of beer on the wall, 49 bottles of beer.
+Take one down and pass it around, 48 bottles of *+|beer on the wall.
 
-rev(84) bottles of beer on the wall, rev(84) bottles of beer.\nTake one down and pass it around, rev(dec(84)) bottles of beer on the wall.
+48 bottles of beer on the wall, 48 bottles of beer.
+Take one down and pass it around, 47 bottles of *+|beer on the wall.
 
-rev(74) bottles of beer on the wall, rev(74) bottles of beer.\nTake one down and pass it around, rev(dec(74)) bottles of beer on the wall.
+47 bottles of beer on the wall, 47 bottles of beer.
+Take one down and pass it around, 46 bottles of *+|beer on the wall.
 
-rev(64) bottles of beer on the wall, rev(64) bottles of beer.\nTake one down and pass it around, rev(dec(64)) bottles of beer on the wall.
+46 bottles of beer on the wall, 46 bottles of beer.
+Take one down and pass it around, 45 bottles of *+|beer on the wall.
 
-rev(54) bottles of beer on the wall, rev(54) bottles of beer.\nTake one down and pass it around, rev(dec(54)) bottles of beer on the wall.
+45 bottles of beer on the wall, 45 bottles of beer.
+Take one down and pass it around, 44 bottles of *+|beer on the wall.
 
-rev(44) bottles of beer on the wall, rev(44) bottles of beer.\nTake one down and pass it around, rev(dec(44)) bottles of beer on the wall.
+44 bottles of beer on the wall, 44 bottles of beer.
+Take one down and pass it around, 43 bottles of *+|beer on the wall.
 
-rev(34) bottles of beer on the wall, rev(34) bottles of beer.\nTake one down and pass it around, rev(dec(34)) bottles of beer on the wall.
+43 bottles of beer on the wall, 43 bottles of beer.
+Take one down and pass it around, 42 bottles of *+|beer on the wall.
 
-rev(24) bottles of beer on the wall, rev(24) bottles of beer.\nTake one down and pass it around, rev(dec(24)) bottles of beer on the wall.
+42 bottles of beer on the wall, 42 bottles of beer.
+Take one down and pass it around, 41 bottles of *+|beer on the wall.
 
-rev(14) bottles of beer on the wall, rev(14) bottles of beer.\nTake one down and pass it around, rev(dec(14)) bottles of beer on the wall.
+41 bottles of beer on the wall, 41 bottles of beer.
+Take one down and pass it around, 40 bottles of *+|beer on the wall.
 
-rev(04) bottles of beer on the wall, rev(04) bottles of beer.\nTake one down and pass it around, rev(dec(04)) bottles of beer on the wall.
+40 bottles of beer on the wall, 40 bottles of beer.
+Take one down and pass it around, 39 bottles of *+|beer on the wall.
 
-rev(93) bottles of beer on the wall, rev(93) bottles of beer.\nTake one down and pass it around, rev(dec(93)) bottles of beer on the wall.
+39 bottles of beer on the wall, 39 bottles of beer.
+Take one down and pass it around, 38 bottles of *+|beer on the wall.
 
-rev(83) bottles of beer on the wall, rev(83) bottles of beer.\nTake one down and pass it around, rev(dec(83)) bottles of beer on the wall.
+38 bottles of beer on the wall, 38 bottles of beer.
+Take one down and pass it around, 37 bottles of *+|beer on the wall.
 
-rev(73) bottles of beer on the wall, rev(73) bottles of beer.\nTake one down and pass it around, rev(dec(73)) bottles of beer on the wall.
+37 bottles of beer on the wall, 37 bottles of beer.
+Take one down and pass it around, 36 bottles of *+|beer on the wall.
 
-rev(63) bottles of beer on the wall, rev(63) bottles of beer.\nTake one down and pass it around, rev(dec(63)) bottles of beer on the wall.
+36 bottles of beer on the wall, 36 bottles of beer.
+Take one down and pass it around, 35 bottles of *+|beer on the wall.
 
-rev(53) bottles of beer on the wall, rev(53) bottles of beer.\nTake one down and pass it around, rev(dec(53)) bottles of beer on the wall.
+35 bottles of beer on the wall, 35 bottles of beer.
+Take one down and pass it around, 34 bottles of *+|beer on the wall.
 
-rev(43) bottles of beer on the wall, rev(43) bottles of beer.\nTake one down and pass it around, rev(dec(43)) bottles of beer on the wall.
+34 bottles of beer on the wall, 34 bottles of beer.
+Take one down and pass it around, 33 bottles of *+|beer on the wall.
 
-rev(33) bottles of beer on the wall, rev(33) bottles of beer.\nTake one down and pass it around, rev(dec(33)) bottles of beer on the wall.
+33 bottles of beer on the wall, 33 bottles of beer.
+Take one down and pass it around, 32 bottles of *+|beer on the wall.
 
-rev(23) bottles of beer on the wall, rev(23) bottles of beer.\nTake one down and pass it around, rev(dec(23)) bottles of beer on the wall.
+32 bottles of beer on the wall, 32 bottles of beer.
+Take one down and pass it around, 31 bottles of *+|beer on the wall.
 
-rev(13) bottles of beer on the wall, rev(13) bottles of beer.\nTake one down and pass it around, rev(dec(13)) bottles of beer on the wall.
+31 bottles of beer on the wall, 31 bottles of beer.
+Take one down and pass it around, 30 bottles of *+|beer on the wall.
 
-rev(03) bottles of beer on the wall, rev(03) bottles of beer.\nTake one down and pass it around, rev(dec(03)) bottles of beer on the wall.
+30 bottles of beer on the wall, 30 bottles of beer.
+Take one down and pass it around, 29 bottles of *+|beer on the wall.
 
-rev(92) bottles of beer on the wall, rev(92) bottles of beer.\nTake one down and pass it around, rev(dec(92)) bottles of beer on the wall.
+29 bottles of beer on the wall, 29 bottles of beer.
+Take one down and pass it around, 28 bottles of *+|beer on the wall.
 
-rev(82) bottles of beer on the wall, rev(82) bottles of beer.\nTake one down and pass it around, rev(dec(82)) bottles of beer on the wall.
+28 bottles of beer on the wall, 28 bottles of beer.
+Take one down and pass it around, 27 bottles of *+|beer on the wall.
 
-rev(72) bottles of beer on the wall, rev(72) bottles of beer.\nTake one down and pass it around, rev(dec(72)) bottles of beer on the wall.
+27 bottles of beer on the wall, 27 bottles of beer.
+Take one down and pass it around, 26 bottles of *+|beer on the wall.
 
-rev(62) bottles of beer on the wall, rev(62) bottles of beer.\nTake one down and pass it around, rev(dec(62)) bottles of beer on the wall.
+26 bottles of beer on the wall, 26 bottles of beer.
+Take one down and pass it around, 25 bottles of *+|beer on the wall.
 
-rev(52) bottles of beer on the wall, rev(52) bottles of beer.\nTake one down and pass it around, rev(dec(52)) bottles of beer on the wall.
+25 bottles of beer on the wall, 25 bottles of beer.
+Take one down and pass it around, 24 bottles of *+|beer on the wall.
 
-rev(42) bottles of beer on the wall, rev(42) bottles of beer.\nTake one down and pass it around, rev(dec(42)) bottles of beer on the wall.
+24 bottles of beer on the wall, 24 bottles of beer.
+Take one down and pass it around, 23 bottles of *+|beer on the wall.
 
-rev(32) bottles of beer on the wall, rev(32) bottles of beer.\nTake one down and pass it around, rev(dec(32)) bottles of beer on the wall.
+23 bottles of beer on the wall, 23 bottles of beer.
+Take one down and pass it around, 22 bottles of *+|beer on the wall.
 
-rev(22) bottles of beer on the wall, rev(22) bottles of beer.\nTake one down and pass it around, rev(dec(22)) bottles of beer on the wall.
+22 bottles of beer on the wall, 22 bottles of beer.
+Take one down and pass it around, 21 bottles of *+|beer on the wall.
 
-rev(12) bottles of beer on the wall, rev(12) bottles of beer.\nTake one down and pass it around, rev(dec(12)) bottles of beer on the wall.
+21 bottles of beer on the wall, 21 bottles of beer.
+Take one down and pass it around, 20 bottles of *+|beer on the wall.
 
-rev(02) bottles of beer on the wall, rev(02) bottles of beer.\nTake one down and pass it around, rev(dec(02)) bottles of beer on the wall.
+20 bottles of beer on the wall, 20 bottles of beer.
+Take one down and pass it around, 19 bottles of *+|beer on the wall.
 
-rev(91) bottles of beer on the wall, rev(91) bottles of beer.\nTake one down and pass it around, rev(dec(91)) bottles of beer on the wall.
+19 bottles of beer on the wall, 19 bottles of beer.
+Take one down and pass it around, 18 bottles of *+|beer on the wall.
 
-rev(81) bottles of beer on the wall, rev(81) bottles of beer.\nTake one down and pass it around, rev(dec(81)) bottles of beer on the wall.
+18 bottles of beer on the wall, 18 bottles of beer.
+Take one down and pass it around, 17 bottles of *+|beer on the wall.
 
-rev(71) bottles of beer on the wall, rev(71) bottles of beer.\nTake one down and pass it around, rev(dec(71)) bottles of beer on the wall.
+17 bottles of beer on the wall, 17 bottles of beer.
+Take one down and pass it around, 16 bottles of *+|beer on the wall.
 
-rev(61) bottles of beer on the wall, rev(61) bottles of beer.\nTake one down and pass it around, rev(dec(61)) bottles of beer on the wall.
+16 bottles of beer on the wall, 16 bottles of beer.
+Take one down and pass it around, 15 bottles of *+|beer on the wall.
 
-rev(51) bottles of beer on the wall, rev(51) bottles of beer.\nTake one down and pass it around, rev(dec(51)) bottles of beer on the wall.
+15 bottles of beer on the wall, 15 bottles of beer.
+Take one down and pass it around, 14 bottles of *+|beer on the wall.
 
-rev(41) bottles of beer on the wall, rev(41) bottles of beer.\nTake one down and pass it around, rev(dec(41)) bottles of beer on the wall.
+14 bottles of beer on the wall, 14 bottles of beer.
+Take one down and pass it around, 13 bottles of *+|beer on the wall.
 
-rev(31) bottles of beer on the wall, rev(31) bottles of beer.\nTake one down and pass it around, rev(dec(31)) bottles of beer on the wall.
+13 bottles of beer on the wall, 13 bottles of beer.
+Take one down and pass it around, 12 bottles of *+|beer on the wall.
 
-rev(21) bottles of beer on the wall, rev(21) bottles of beer.\nTake one down and pass it around, rev(dec(21)) bottles of beer on the wall.
+12 bottles of beer on the wall, 12 bottles of beer.
+Take one down and pass it around, 11 bottles of *+|beer on the wall.
 
-rev(11) bottles of beer on the wall, rev(11) bottles of beer.\nTake one down and pass it around, rev(dec(11)) bottles of beer on the wall.
+11 bottles of beer on the wall, 11 bottles of beer.
+Take one down and pass it around, 10 bottles of *+|beer on the wall.
 
-rev(01) bottles of beer on the wall, rev(01) bottles of beer.\nTake one down and pass it around, rev(dec(01)) bottles of beer on the wall.
+10 bottles of beer on the wall, 10 bottles of beer.
+Take one down and pass it around, 9 bottles of *+|beer on the wall.
 
-rev(9) bottles of beer on the wall, rev(9) bottles of beer.\nTake one down and pass it around, rev(dec(9)) bottles of beer on the wall.
+9 bottles of beer on the wall, 9 bottles of beer.
+Take one down and pass it around, 8 bottles of *+|beer on the wall.
 
-rev(8) bottles of beer on the wall, rev(8) bottles of beer.\nTake one down and pass it around, rev(dec(8)) bottles of beer on the wall.
+8 bottles of beer on the wall, 8 bottles of beer.
+Take one down and pass it around, 7 bottles of *+|beer on the wall.
 
-rev(7) bottles of beer on the wall, rev(7) bottles of beer.\nTake one down and pass it around, rev(dec(7)) bottles of beer on the wall.
+7 bottles of beer on the wall, 7 bottles of beer.
+Take one down and pass it around, 6 bottles of *+|beer on the wall.
 
-rev(6) bottles of beer on the wall, rev(6) bottles of beer.\nTake one down and pass it around, rev(dec(6)) bottles of beer on the wall.
+6 bottles of beer on the wall, 6 bottles of beer.
+Take one down and pass it around, 5 bottles of *+|beer on the wall.
 
-rev(5) bottles of beer on the wall, rev(5) bottles of beer.\nTake one down and pass it around, rev(dec(5)) bottles of beer on the wall.
+5 bottles of beer on the wall, 5 bottles of beer.
+Take one down and pass it around, 4 bottles of *+|beer on the wall.
 
-rev(4) bottles of beer on the wall, rev(4) bottles of beer.\nTake one down and pass it around, rev(dec(4)) bottles of beer on the wall.
+4 bottles of beer on the wall, 4 bottles of beer.
+Take one down and pass it around, 3 bottles of *+|beer on the wall.
 
-rev(3) bottles of beer on the wall, rev(3) bottles of beer.\nTake one down and pass it around, rev(dec(3)) bottles of beer on the wall.
+3 bottles of beer on the wall, 3 bottles of beer.
+Take one down and pass it around, 2 bottles of *+|beer on the wall.
 
 2 bottles of beer on the wall, 2 bottles of beer.
 Take one down and pass it around, 1 bottle of beer on the wall.
