@@ -292,9 +292,17 @@ class processor:
                 if char == '[':
                     string = self.addinstruction(string, cp)
                     continue
-                if char == '{':
+                if char == '{': # '{ }' pushes into new scope. When this new scope is left, any new instructions are forgotten.
                     string = self.push(string, cp)
                     continue
+                if char == '=': # '<=' instruction returns to start of scope.
+                    if cp > 0:
+                        if string[cp-1] == '<':
+                            string = string[:cp-1]+string[cp+1:]
+                            cp = 0
+                            for instruction in self.instructions:
+                                instruction.reset()
+                            continue
                 for instruction in self.instructions:
                     result = instruction.processchar(char, cp)
                     if result != None:

@@ -10,8 +10,9 @@
 [\n->
 ];
 [inc(0*A)->1*A][inc(1*A)->0inc(*A)][inc()->1];
-Little endian binary counting:
-for var in (0..0001)(var\n);
+Big endian binary counting:
+for var in (0..0001)(reverse`var'\n);
+[reverse`+c*S'->reverse`*S'+c][reverse`'->]<=;
 [^inc(*S)->dogs*S];
 Dog unary counting:
 for var in (dogs..dogsdogsdogsdogsdogs)(var\n)
