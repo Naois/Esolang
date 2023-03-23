@@ -319,10 +319,17 @@ class processor:
         while string[end - 1] == '~':
             end = string.index(']', end+1)
         commandstring = string[cp+1:end]
+        flag = False
+        if commandstring[0] == '^':
+            commandstring = commandstring[1:]
+            flag = True
         expr, replacement = commandstring.split('->')
         if global_printcommands:
             print("New Command added: [{}]".format(commandstring))
-        self.instructions.append(instruction(expr,replacement))
+        if flag:
+            self.instructions.insert(0, instruction(expr,replacement))
+        else:
+            self.instructions.append(instruction(expr,replacement))
         return string[:cp] + string[end+1:]
     
     def push(self, string, cp):
