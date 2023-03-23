@@ -3,16 +3,16 @@
 ->];
 //Predefined code
 //Note that this doesn't account for the case where A=B; it is always assumed that initially, A<B.
-[for *V in (*A..*B)(*E)->{~[^for2 *V in (*B..*B)(*E)-~>expfill(*B,*V,*E)~]expfill(*A,*V,*E)for2 *V in (inc(*A)..*B)(*E)}];
-[for2 *V in (*A..*B)(*E)->expfill(*A,*V,*E)for2 *V in (inc(*A)..*B)(*E)];
+[for *V in *A..*B: (*E)->{~[^for2 *V in *B..*B: (*E)-~>expfill(*B,*V,*E)~]expfill(*A,*V,*E)for2 *V in inc(*A)..*B: (*E)}];
+[for2 *V in *A..*B: (*E)->expfill(*A,*V,*E)for2 *V in inc(*A)..*B: (*E)];
 [expfill(*A,*V,*E)->{~[*V-~>*A~]*E}];
 //User defined code
 [\n->
 ];
 [inc(0*A)->1*A][inc(1*A)->0inc(*A)][inc()->1];
 Big endian binary counting:
-for var in (0..0001)(reverse`var'\n);
+for var in 0..0001: (reverse`var'\n);
 [reverse`+c*S'->reverse`*S'+c][reverse`'->]<=;
 [^inc(*S)->dogs*S];
 Dog unary counting:
-for var in (dogs..dogsdogsdogsdogsdogs)(var\n)
+for var in dogs..dogsdogsdogsdogsdogs: (var\n)
