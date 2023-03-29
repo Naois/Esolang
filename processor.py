@@ -51,12 +51,13 @@ ROLL_DELETE = -1  #Rollback went too far, this partial should be deleted.
 import sys
 
 class partial:
-    def __init__(self, expr) -> None:
+    def __init__(self, expr, replacement) -> None:
         self.pointer = 0
         self.mode = STATE_CONTINUING
         self.posmap = [sys.maxsize for x in expr]
         self.poststring = False
         self.expr = expr
+        self.replacement = replacement
         self.diedat = 0
     
     #Rolls back when a success occurs
@@ -66,7 +67,7 @@ class partial:
                 return ROLL_DEAD
         self.mode = STATE_CONTINUING
         currentpointer = 0
-        if self.posmap[currentpointer] > cp:
+        if self.posmap[currentpointer] >= cp:
             return ROLL_DELETE
         while currentpointer < len(self.expr):
             char = self.expr[currentpointer]
@@ -138,7 +139,9 @@ class partial:
             return PROC_FAILURE
         return PROC_CONTINUE
     
-    def apply(self, string : str, expr, replacement):
+    def apply(self, string : str):
+        expr = self.expr
+        replacement = self.replacement
         pointer = 0
         cp = self.posmap[pointer]
         chardict = dict()
@@ -202,8 +205,9 @@ class instruction:
 
     #Accepts a character, returns None or a complete partial
     def processchar(self, char, cp):
-        self.partiallist.append(partial(self.expr))
+        self.partiallist.append(partial(self.expr, self.replacement))
         i = 0
+        successlist = list()
         while i < len(self.partiallist):
             result = self.partiallist[i].processchar(self.expr, char, cp)
             if result == PROC_FAILURE:
@@ -211,9 +215,9 @@ class instruction:
                 self.deadlist.append(died)
                 i -= 1
             elif result == PROC_SUCCESS:
-                return self.partiallist[i]
+                successlist.append(self.partiallist[i])
             i += 1
-        return None
+        return successlist
         
     def rollback(self, cp):
         newpartials = list()
@@ -266,10 +270,12 @@ class instruction:
         pointer = 0
         while pointer < len(replacement):
             if replacement[pointer] == '*':
+                char = replacement[pointer+1]
                 if replacement[pointer + 1] not in strings:
                     raise Exception("String *{} in expression {} not declared".format(char, replacement))
                 pointer += 1
             if replacement[pointer] == '+':
+                char = replacement[pointer+1]
                 if replacement[pointer + 1] not in variables:
                     raise Exception("Variable +{} in expression {} not declared".format(char, replacement))
                 pointer += 1
@@ -303,22 +309,27 @@ class processor:
                             for instruction in self.instructions:
                                 instruction.reset()
                             continue
+                successlist = list()
                 for instruction in self.instructions:
-                    result = instruction.processchar(char, cp)
-                    if result != None:
-                        cp, string, newcp = result.apply(string, instruction.expr, instruction.replacement)
-                        if newcp != -1:
-                            for instruction in self.instructions:
-                                instruction.reset()
-                            changed = True
-                            cp = newcp - 1
-                            break
-                        else:
-                            for instruction in self.instructions:
-                                instruction.rollback(cp)
-                            changed = True
-                            cp = cp - 1
-                            break
+                    successlist.extend(instruction.processchar(char, cp))
+                result = None
+                maxstart = -1
+                for partial in successlist:
+                    if partial.posmap[0] > maxstart:
+                        result = partial
+                        maxstart = partial.posmap[0]
+                if result != None:
+                    cp, string, newcp = result.apply(string)
+                    if newcp != -1:
+                        for instruction in self.instructions:
+                            instruction.reset()
+                        changed = True
+                        cp = newcp
+                    else:
+                        for instruction in self.instructions:
+                            instruction.rollback(cp)
+                        changed = True
+                    continue
                 cp += 1
         return string
     
