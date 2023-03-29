@@ -1,0 +1,18 @@
+[;+c->];
+[//*S
+->];
+// The following example runs the 2-symbol, 4-state busy beaver turing machine
+//Rule factory
+[rule(+i+m,+nR+f)->~[+i+m-~>+n+f~]];
+[rule(+i+m,+nL+f)->~[~+c+i+m-~>+f~+c+n~]];
+//Rules encode the steps taken by the machine
+rule(A0,1RB)rule(A1,1LB);
+rule(B0,1LA)rule(B1,0LC);
+rule(C0,1RH)rule(C1,1LD);
+rule(D0,1RD)rule(D1,0RA);
+// These rules ensure the tape is infinite
+[(A->(0A][A)->A0)];
+[(B->(0B][B)->B0)];
+[(C->(0C][C)->C0)];
+[(D->(0D][D)->D0)];
+(A)
