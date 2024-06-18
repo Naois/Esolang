@@ -17,7 +17,7 @@ The remaining syntax with examples is listed in the following table.
 | `+` | Denotes a variable character. | `[triple(+a)->+a+a+a]A sailor went to triple(c)` outputs `A sailor went to ccc` |
 | `*` | Denotes a string. | `[I'm *S and I'm very cool->*S is full of themselves]I'm Baba and I'm very cool` outputs `Baba is full of themselves` |
 | `\|` | Denotes the point that the processor should continue reading from. By default, the processor returns to the start of the replacment string. | `[baba->keke][keke->fofo]baba` outputs `fofo`, but `[baba->keke\|][keke->fofo]baba` outputs `keke` |
-| `^` | Makes a rule a priority. | `[baba->keke][baba->fofo]baba` outputs `fofo`, while `[baba->keke][^baba->fofo]baba` outputs `fofo` |
+| `^` | Makes a rule a priority. | `[baba->keke][baba->fofo]baba` outputs `keke`, while `[baba->keke][^baba->fofo]baba` outputs `fofo` |
 | `{` and `}` | Pushes into a new scope and pops into the last scope, respectively. New rules added inside a code block will be forgotten when the block is closed. | `{[ke->ba]ke}ke` outputs `bake` |
 | `<=` | Jumps to the beginning of scope (either the beginning of the code block or file). | `baba is {badbad[ba->ko][d->ol]<=}[ba->ke]<=` outputs `keke is koolkool` |
 
